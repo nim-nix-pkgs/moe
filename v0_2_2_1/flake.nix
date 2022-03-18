@@ -13,20 +13,6 @@
   inputs.src-moe-v0_2_2_1.repo  = "moe";
   inputs.src-moe-v0_2_2_1.type  = "github";
   
-  inputs."unicodedb".owner = "nim-nix-pkgs";
-  inputs."unicodedb".ref   = "master";
-  inputs."unicodedb".repo  = "unicodedb";
-  inputs."unicodedb".type  = "github";
-  inputs."unicodedb".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."unicodedb".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
-  inputs."parsetoml".owner = "nim-nix-pkgs";
-  inputs."parsetoml".ref   = "master";
-  inputs."parsetoml".repo  = "parsetoml";
-  inputs."parsetoml".type  = "github";
-  inputs."parsetoml".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."parsetoml".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
