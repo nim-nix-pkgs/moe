@@ -26,45 +26,18 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "ncurses-master": "ncurses-master",
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107826,
-        "narHash": "sha256-KyLkNRfH/LeSsJxJZJogek2tapfCMBFGfAnih6wz0oY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "ncurses",
-        "rev": "0cf5586dfc4af8e60d489ff1dcdff35d227a226b",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "ncurses",
-        "type": "github"
-      }
-    },
-    "ncurses-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "ncurses",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "ncurses",
           "nixpkgs"
         ],
         "src-ncurses-master": "src-ncurses-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107826,
-        "narHash": "sha256-KyLkNRfH/LeSsJxJZJogek2tapfCMBFGfAnih6wz0oY=",
+        "lastModified": 1648163313,
+        "narHash": "sha256-kuLucRt7/27BeuUKrQbksOYn3qNhX7ZzXkPYXQF0xQQ=",
         "owner": "nim-nix-pkgs",
         "repo": "ncurses",
-        "rev": "0cf5586dfc4af8e60d489ff1dcdff35d227a226b",
+        "rev": "1bc2b57df3c2ff83778813ed6f7c8308351d82cd",
         "type": "github"
       },
       "original": {
@@ -98,11 +71,11 @@
       },
       "locked": {
         "dir": "v0_6_0",
-        "lastModified": 1648107972,
-        "narHash": "sha256-zzsvDug4yXVOBhYIO2r0CQRtOKX1Z2VByc5ygAlUjcs=",
+        "lastModified": 1648163464,
+        "narHash": "sha256-rTbKWtnqN7zlcgNRtWkOjYw4twqffW8CKp1OXN+Em1I=",
         "owner": "nim-nix-pkgs",
         "repo": "parsetoml",
-        "rev": "cb1dadbdbedd72a82aa493fd731e6803c98dcf7a",
+        "rev": "bfe65a17b4043ff27ca267eb31c153ea12deb9cb",
         "type": "github"
       },
       "original": {
@@ -203,11 +176,11 @@
       },
       "locked": {
         "dir": "v0_10_0",
-        "lastModified": 1648108194,
-        "narHash": "sha256-jab8i6RK0RLeIOojEIXzvrJsVTfpk26NxJZKvUpmpP0=",
+        "lastModified": 1648163711,
+        "narHash": "sha256-n7JO0NyBn839Ra28ErdDwXSafT3CYHBpJbaP6O/uSdw=",
         "owner": "nim-nix-pkgs",
         "repo": "unicodedb",
-        "rev": "abe4065681b54824cae758a3c81ca37895078ee7",
+        "rev": "2ce0f2f6fa69fc3881b504713a92e1b3377fc6ec",
         "type": "github"
       },
       "original": {
