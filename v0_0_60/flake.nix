@@ -11,6 +11,7 @@
   inputs.src-moe-v0_0_60.ref   = "refs/tags/v0.0.60";
   inputs.src-moe-v0_0_60.owner = "fox0430";
   inputs.src-moe-v0_0_60.repo  = "moe";
+  inputs.src-moe-v0_0_60.dir   = "";
   inputs.src-moe-v0_0_60.type  = "github";
   
   inputs."unicodedb".owner = "nim-nix-pkgs";
