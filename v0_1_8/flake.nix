@@ -11,8 +11,15 @@
   inputs.src-moe-v0_1_8.ref   = "refs/tags/v0.1.8";
   inputs.src-moe-v0_1_8.owner = "fox0430";
   inputs.src-moe-v0_1_8.repo  = "moe";
-  inputs.src-moe-v0_1_8.dir   = "";
   inputs.src-moe-v0_1_8.type  = "github";
+  
+  inputs."ncurses".owner = "nim-nix-pkgs";
+  inputs."ncurses".ref   = "master";
+  inputs."ncurses".repo  = "ncurses";
+  inputs."ncurses".dir   = "master";
+  inputs."ncurses".type  = "github";
+  inputs."ncurses".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."ncurses".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."unicodedb".owner = "nim-nix-pkgs";
   inputs."unicodedb".ref   = "master";

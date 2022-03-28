@@ -11,7 +11,6 @@
   inputs.src-moe-master.ref   = "refs/heads/master";
   inputs.src-moe-master.owner = "fox0430";
   inputs.src-moe-master.repo  = "moe";
-  inputs.src-moe-master.dir   = "";
   inputs.src-moe-master.type  = "github";
   
   inputs."ncurses".owner = "nim-nix-pkgs";
