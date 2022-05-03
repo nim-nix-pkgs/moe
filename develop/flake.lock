@@ -99,11 +99,11 @@
     "src-moe-develop": {
       "flake": false,
       "locked": {
-        "lastModified": 1651262455,
-        "narHash": "sha256-o7jRHg1HkZrjJlnVbjZNxcPMDzlstGmP/xNUXCewjXQ=",
+        "lastModified": 1651606463,
+        "narHash": "sha256-izgaYdPJR1hVX0zkAQsH1Gpgz4WK2jZ6StlECMT0d9Y=",
         "owner": "fox0430",
         "repo": "moe",
-        "rev": "18222d0d0d680bcbf2478d6d0627dfab8ecbbd14",
+        "rev": "9501c72c7285a40070b0a6b8d79d785acf813767",
         "type": "github"
       },
       "original": {
